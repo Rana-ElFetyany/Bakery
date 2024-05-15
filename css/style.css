@@ -1,0 +1,326 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Alegreya Sans", sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Alegreya", serif;
+}
+
+.clear-fix {
+    clear: both;
+}
+
+
+.Header{
+    background-image: url(../images/drew-coffman-1872.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    overflow: auto;
+
+}
+
+.nav {
+    width: 90%;
+    margin: auto;
+    color: white;
+
+}
+
+
+.nav .nav_img {
+    float: left;
+    width: 15%;
+    padding: 20px;
+}
+
+.nav .nav_img img {
+    width: 100%;
+}
+
+.nav .nav_list {
+    float: right;
+    padding: 35px;
+    font-weight: 500;
+    font-size: 19px;
+}
+
+.nav .nav_list ul li {
+    float: left;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+
+.Hcontent{
+    color:  white;
+    text-align: center;
+    margin-top: 150px;
+
+}
+
+.Hcontent h1 {
+    font-size: 76px;
+    margin-block: 30px;
+    font-weight: 400;
+}
+
+.Hcontent .p1 {
+    font-size: 22px;
+}
+
+.Hcontent .p2 {
+    font-size: 24px;
+    width: 500px;
+    margin: auto;
+    line-height: 35px;
+    width: 45%;
+}
+
+.Header button{
+    padding: 18px;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.Header .button1{
+    border: 2px solid #8E7754;
+    background-color: #8E7754;
+    color: white;
+}
+
+.Header .button2{
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+}
+
+.Bimg{
+    width: 40%;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 70px;
+}
+
+.Bimg img{
+    width: 100%;
+}
+
+
+.text{
+    width: 40%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 40px;
+}
+
+.text h2{
+    font-size: 32px;
+    font-weight: 400;
+    color: #686868;
+    margin-bottom: 30px;
+}
+
+.text p{
+    font-size: 17px;
+    line-height: 30px;
+    color: #686868;
+    margin-bottom: 40px;
+
+}
+
+.text span{
+    font-size: 17px;
+    color: #686868;
+}
+
+
+.text i{
+    color :#686868;
+    border: 1px solid #686868;
+    border-radius: 50%;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.Our_Location {
+    background-color: #dddddd46;
+    display: inline-block;
+}
+
+.Our_Location .Bimg2{
+width:40%;
+display: inline-block;
+vertical-align: middle;
+margin-left: 100px;
+}
+
+.Our_Location .text2{
+width: 40%;
+display: inline-block;
+vertical-align: middle;
+margin-left: 100px;
+}
+
+.Bimg2 img{
+    width: 100%;
+}
+
+.Our_Location .text2 h2{
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    }
+
+.Our_Location .text2 p{
+    font-size: 17px;
+    margin-bottom: 40px;
+    line-height: 25px;
+    color: #686868;
+    }
+
+
+
+.section{
+    width: 29%;
+    display: inline-block;
+    text-align: center;
+    color: #686868;
+    margin-left: 50px;
+}
+
+.section img{
+    width: 100%;
+}
+
+.text2{
+    text-align: center;
+    color: #686868;
+}
+
+.text2 h2{
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.text2 p{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+
+.Contact_Information {
+    width: 100%;
+    margin: auto;
+    padding-block: 50px;
+    display: inline-block;
+    background-color: #dddddd46;
+}
+
+.Contact_Information text{
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.Contact_Information .map {
+    width: 40%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 100px;
+}
+
+.Contact_Information .text h2 {
+    font-size: 32px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+
+}
+
+.Contact_Information .text p {
+    font-size: 17px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+}
+
+.Contact_Information .text i {
+    color: white;
+    background-color: #8E7754;
+    border-radius: 50%;
+    padding: 10px;
+    margin-right: 10px;
+    margin-left: 100px;
+
+}
+
+.Contact_Information .text .icon {
+    margin-bottom: 10px;
+}
+
+.blog-main-section {
+    background-image: url(../Images/contact-details-map.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #403d38;
+    padding-block: 30px;
+    color: whitesmoke;
+}
+
+.blog-section {
+    width: 90%;
+    margin: auto;
+}
+
+.blog-card {
+    float: left;
+    width: 22%;
+    padding: 10px;
+}
+
+.blog-card h4 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.blog-card p {
+    margin-bottom: 30px;
+}
+
+.blog-card ul li {
+    border-bottom: 2px solid gray;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    list-style-type: none;
+}
+
+.footer {
+    background-color: #353330;
+    padding-block: 20px;
+    text-align: center;
+    color: #686868;
+}
+
+.footer p {
+    margin-block: 40px;
+}
+
+.footer i {
+    background-color: #403d38;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 10px;
+}
+
